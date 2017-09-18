@@ -10,6 +10,8 @@ https://github.com/enmanuel17/MovieTrailerProject.git
 ## REQUIREMENTS:
 Python and a web browser must be available for the code to work.
 
+## How to Use:
+
 The application can be run with the following ways:
 - Double clicking the entertainment_center.py.
 - Typing ```python entertainment_center.py``` from the linux command line.
