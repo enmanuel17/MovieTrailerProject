@@ -5,6 +5,7 @@ This is the code for my first udacity project. The code allows you to use python
 
 The code can be downloaded from the following repo:
 
+https://github.com/enmanuel17/MovieTrailerProject.git
 
 ## REQUIREMENTS:
 Python and a web browser must be available for the code to work.
