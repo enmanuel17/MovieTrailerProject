@@ -27,7 +27,7 @@ import fresh_tomatoes
 #Gets the ID from all the movies I want
 #######################################################################################
 #Stores all the movies I want to display
-movies = ['The avengers', 'skyfall', 'logan', 'transformers', 'Dirty Grandpa', 'alien covenant', 'A dogs purpose']
+movies = ['300', 'The avengers', 'iron man', 'skyfall', 'dark knight rises', 'logan', 'the pursuit of happy', 'Dirty Grandpa', 'alien covenant', 'A dogs purpose', 'stand and deliver', 'thor']
 
 #Initializes the tmbd search method
 search = tmdb.Search()
