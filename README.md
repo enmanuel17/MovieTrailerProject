@@ -19,6 +19,13 @@ for more infor regarding the library look here https://github.com/celiao/tmdbsim
 ```pip install tmdb3```
 for more infor regarding the library look here https://github.com/wagnerrp/pytmdb3
 
+### For Windows ONLY
+open the windows command promt "CMD"
+Then run the followin commands one at the time to install the libraries:
+- ```cd C:\Python\Scripts\```
+- ```pip.exe install tmdb3```
+- ```pip.exe install tmdbsimple```
+
 ## How to Use:
 
 The application can be run with the following ways:
