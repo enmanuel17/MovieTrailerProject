@@ -11,13 +11,15 @@ https://github.com/enmanuel17/MovieTrailerProject.git
 Python and a web browser must be available for the code to work.
 Install the following libraries:
 
-- tmdbsimple
-https://github.com/celiao/tmdbsimple/
-in python console do
+1 tmdbsimple
+in python console do this
 ```pip install tmdbsimple```
--tmdb3
-https://github.com/wagnerrp/pytmdb3
-```sudo pip install tmdb3```
+for more infor regarding the library look here https://github.com/celiao/tmdbsimple/
+
+2 tmdb3
+in python console do this
+```pip install tmdb3```
+for more infor regarding the library look here https://github.com/wagnerrp/pytmdb3
 
 ## How to Use:
 
