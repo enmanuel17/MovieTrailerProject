@@ -16,9 +16,12 @@
 #####################################################
 import tmdbsimple as tmdb
 tmdb.API_KEY = '6178322d2a44fe7cbef43f2bad94bd6e'
+import tmdb3
 from tmdb3 import set_key
 set_key('6178322d2a44fe7cbef43f2bad94bd6e')
 from tmdb3 import searchMovie, Movie
+#Makes the API work on windows
+tmdb3.set_cache('null')
 ######################################################
 #imports the local libraries
 import media
@@ -28,7 +31,7 @@ import fresh_tomatoes
 #######################################################################################
 #Stores all the movies I want to display
 movies = ['300', 'The avengers ultron', 'iron man', 'skyfall', 'dark knight rises', 'logan', 'the pursuit of happy', 'Dirty Grandpa', 'alien covenant', 'A dogs purpose', 'stand and deliver', 'thor']
-
+#movies = ['iron man 3','thor 2']
 #Initializes the tmbd search method
 search = tmdb.Search()
 #Counter to determine the amount of times the while loop has to run.
