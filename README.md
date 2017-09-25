@@ -1,5 +1,5 @@
 # Movie trailer project 1
-This is the code for my first udacity project. The code allows you to use python to create website that displays movies. 
+This is the code for my first udacity project. The code allows you to use python to create website that displays movie trailers. It does this by dynamically querying the the database of themoviedb.org with two API wrappers.
 
 ### Downloads
 
@@ -13,11 +13,11 @@ Install the following libraries:
 
 - tmdbsimple
 ```pip install tmdbsimple```
-for more infor regarding the library look here https://github.com/celiao/tmdbsimple/
+for more info regarding the library look here https://github.com/celiao/tmdbsimple/
 
 - tmdb3
 ```pip install tmdb3```
-for more infor regarding the library look here https://github.com/wagnerrp/pytmdb3
+for more info regarding the library look here https://github.com/wagnerrp/pytmdb3
 
 ### For Windows ONLY
 open the windows command promt "CMD"
