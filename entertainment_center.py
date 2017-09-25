@@ -1,5 +1,7 @@
 # Enmanuel Hernandez
 # Movie trailer project.
+#This is the code for my first udacity project. The code allows you to use python to create website that displays movie trailers. 
+#It does this by dynamically querying the the database of themoviedb.org with two API wrappers.
 
 #  These are the links to the githubs of the APIs I am using:
 #  For tmdbsimple:
@@ -15,7 +17,7 @@
 import media
 import fresh_tomatoes
 
-#Stores the key for query the themoviedb.org API with the wrappers.
+#Stores the key for querying the themoviedb.org API with the wrappers.
 API_Key = "6178322d2a44fe7cbef43f2bad94bd6e"
 
 #Imports the two API wrappers I need to query the movie IDs and create image urls and trailers.
@@ -37,7 +39,7 @@ movies = ['300', 'The avengers ultron', 'iron man', 'skyfall', 'dark knight rise
 
 #Initializes the tmbd search method
 search = tmdb.Search()
-#Counter to determine the amount of times the while loop has to run.
+#Counter to determine the amount of times the while loop has to run. It also checks the number of movies we have to find.
 numMovie = len(movies)
 #Array to store the ID of each movie
 mID = []
@@ -76,20 +78,18 @@ while (counter < numMovie):
 		#Increments the counter to eventually make the while loop exit.
 		counter = counter + 1
 
-
-#By using each movie object from the array MovieArray, we are able to extract only the data for the four attributes we need.
-#These attributes are title, overview, poster url, trailer url. 
-#We then pass these attributes to create instance of the Media.Movie class.
-#We then insert each Media.Movie instance into an array for future use.
-###################################################################################################################
-
 #Array that will hold the objects created with the media.py class.
 mediaArray = []
 #Counter top stop the while loop.
 counter = 0
 #loops that creates an media object with four attributes extracted and passed onto the media.Movie class to create instances
 while (counter < numMovie):
-	#
+	#Creates instances of the media.Movie class. It does this by passing four attribues of each object in the movieArray to the class.
+	#Once it creates an media instance (movieObject), we store it inside the mediaArray.
+	#movieArray[counter].titlle gets the ticlet of the movie
+	#movieArray[counter].overview gets a little overview of the movie.
+	#movieArray[counter].poster.geturl(), gets front poster of the movie.
+	#movieArray[counter].youtube_trailers[0].geturl() gets the first trailer found for the movie.A movie might have more than one trailer, hence the extra [0].
 	mediaObject = media.Movie(
 		movieArray[counter].title,
 		movieArray[counter].overview,
@@ -98,7 +98,7 @@ while (counter < numMovie):
 		)
 	mediaArray.insert(counter,mediaObject)
 	counter = counter + 1
-####################################################################################################################
 
-#Class the funtion that creaets the html website and it give it an array of media Objects.
+#Calls a function with the mediaArray as an argument. 
+#The function then uses the media Array to dinamically create the html for a website.
 fresh_tomatoes.open_movies_page(mediaArray)
