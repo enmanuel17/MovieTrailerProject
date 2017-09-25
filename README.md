@@ -13,11 +13,11 @@ Install the following libraries:
 
 - tmdbsimple
 ```pip install tmdbsimple```
-for more infor regarding the library look here https://github.com/celiao/tmdbsimple/
+for more info regarding the library look here https://github.com/celiao/tmdbsimple/
 
 - tmdb3
 ```pip install tmdb3```
-for more infor regarding the library look here https://github.com/wagnerrp/pytmdb3
+for more info regarding the library look here https://github.com/wagnerrp/pytmdb3
 
 ### For Windows ONLY
 open the windows command promt "CMD"
