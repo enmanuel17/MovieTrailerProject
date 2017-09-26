@@ -6,7 +6,7 @@ import webbrowser
 
 #A class that has four attributes and a method to provide information about the objects.
 class Movie():
-	"""This calss provides a way to store movie related information"""
+	"""This class provides a way to store movie related information"""
 	def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
 		self.title = movie_title
 		self.storyline = movie_storyline
