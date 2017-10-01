@@ -1,5 +1,5 @@
 # Movie trailer project 1
-This is the code for my first udacity project. The code allows you to use python to create website that displays movie trailers. It does this by dynamically querying the the database of themoviedb.org with two API wrappers.
+This is the code for my first udacity project. The code allows you to use python to create website that displays movie trailers. It does this by dynamically querying the database of themoviedb.org with two API wrappers.
 
 ### Downloads
 
