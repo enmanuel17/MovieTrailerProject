@@ -8,7 +8,7 @@ The code can be downloaded from the following repo:
 https://github.com/enmanuel17/MovieTrailerProject.git
 
 ## REQUIREMENTS:
-Python and a web browser must be available for the code to work.
+Python 2 ONLY and a web browser must be available for the code to work.
 Install the following libraries:
 
 - tmdbsimple
